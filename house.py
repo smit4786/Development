@@ -1,7 +1,7 @@
 """ def main():
     #Gryffindor = ["Harry", "Ron", "Hermoine"]
     #Slytherin = ["Draco"]
-    #Hufflepuff = ["Justin"]
+    #Hufflepuff = ["Spencer"]
 
     name = input("What is your name? ")
     if name == "Harry":
@@ -21,6 +21,8 @@ match name:
     case "Harry" | "Hermoine" | "Ron":
         print("Gryffindor")
     case "Draco":
+        print("Slytherin")
+    case "Spencer":
         print("Slytherin")
     case _:
         print("Who?")
